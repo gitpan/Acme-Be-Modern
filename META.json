@@ -22,7 +22,8 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.38",
+            "Software::License" : 0
          }
       },
       "runtime" : {
@@ -35,14 +36,14 @@
    "provides" : {
       "Acme::Be::Modern" : {
          "file" : "lib/Acme/Be/Modern.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
-         "http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt"
+         "http://www.gnu.org/licenses/gpl-3.0.txt"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

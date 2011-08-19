@@ -7,6 +7,7 @@ build_requires:
   Test::More: 0
 configure_requires:
   Module::Build: 0.38
+  Software::License: 0
 dynamic_config: 1
 generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930001'
 license: open_source
@@ -17,10 +18,10 @@ name: Acme-Be-Modern
 provides:
   Acme::Be::Modern:
     file: lib/Acme/Be/Modern.pm
-    version: 0.01
+    version: 0.02
 requires:
   Filter::Util::Call: 0
   Modern::Perl: 0
 resources:
-  license: http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt
-version: 0.01
+  license: http://www.gnu.org/licenses/gpl-3.0.txt
+version: 0.02
