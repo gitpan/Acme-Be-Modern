@@ -4,9 +4,9 @@
       "SÃ¸ren Lund <slu@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930001",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
    "license" : [
-      "open_source"
+      "gpl_1"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -36,7 +36,7 @@
    "provides" : {
       "Acme::Be::Modern" : {
          "file" : "lib/Acme/Be/Modern.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -45,5 +45,5 @@
          "http://www.gnu.org/licenses/gpl-3.0.txt"
       ]
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }

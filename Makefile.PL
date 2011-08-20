@@ -2,16 +2,16 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
+  'PL_FILES' => {},
+  'INSTALLDIRS' => 'site',
   'NAME' => 'Acme::Be::Modern',
+  'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/Acme/Be/Modern.pm',
   'PREREQ_PM' => {
-                   'Filter::Util::Call' => 0,
+                   'Test::More' => 0,
                    'Modern::Perl' => 0,
                    'Module::Loaded' => 0,
-                   'Test::More' => 0
-                 },
-  'INSTALLDIRS' => 'site',
-  'EXE_FILES' => [],
-  'PL_FILES' => {}
+                   'Filter::Util::Call' => 0
+                 }
 )
 ;
